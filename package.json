@@ -1,0 +1,21 @@
+{
+  "name": "rlp-e2e-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio excerpt: Playwright e2e automation for a multi-step web approval workflow",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "typescript", "test-automation"],
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^5.6.0"
+  }
+}
